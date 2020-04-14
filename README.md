@@ -1,6 +1,6 @@
 # Sports-Pro Database Application LINQ
 
-## Technologies used:
+## Technologies Used:
 
 C#, SQL Server 2016, Visual Studio 2017, LINQ to SQL, Data bound objects
 
