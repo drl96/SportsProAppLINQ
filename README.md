@@ -12,12 +12,12 @@ SportsPro is a hypothetical software company that develops software for  sports 
 
 ### Select state from data bound combo box:
 
-![SelectState](C:\Users\drleo\Documents\GitHub\SportsProAppLINQ\Resources\SelectState.PNG)
+![Select State](https://github.com/drl96/SportsProAppLINQ/blob/master/Resources/SelectState.PNG)
 
 ### View all customers for the selected state:
 
-![CustomersInSelectedState](C:\Users\drleo\Documents\GitHub\SportsProAppLINQ\Resources\CustomersInSelectedState.PNG)
+![Customers In Selected State](https://github.com/drl96/SportsProAppLINQ/blob/master/Resources/CustomersInSelectedState.PNG)
 
 ### View all incidents associated with the selected customer:
 
-![SelectedCustomerIncidents](C:\Users\drleo\Documents\GitHub\SportsProAppLINQ\Resources\SelectedCustomerIncidents.PNG)
+![Selected Customer Incidents](https://github.com/drl96/SportsProAppLINQ/blob/master/Resources/SelectedCustomerIncidents.PNG)
