@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Assignment5LINQtoSQL">
+  <DataContextMoniker Name="/Assignment5LINQtoSQLDataContext" />
+  <nestedChildShapes>
+    <classShape Id="6d16343b-325f-478e-be6e-257f13a94437" absoluteBounds="0.5, 0.5, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/Assignment5LINQtoSQLDataContext/Customer" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dabc9be7-02d4-4c68-80e0-3f88c1a565bd" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7dedd707-6f35-4712-9063-7d278c70f2c3" absoluteBounds="3.5, 1.25, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/Assignment5LINQtoSQLDataContext/Incident" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cad28e72-68f4-432a-9b1e-29be981edbdc" absoluteBounds="3.515, 1.71, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5 : 2.04890055338542); (3.5 : 2.04890055338542)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/Assignment5LINQtoSQLDataContext/Customer/Customer_Incident" />
+      <nodes>
+        <classShapeMoniker Id="6d16343b-325f-478e-be6e-257f13a94437" />
+        <classShapeMoniker Id="7dedd707-6f35-4712-9063-7d278c70f2c3" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="09f13e7a-5439-46c9-9b62-b9aa01dad314" absoluteBounds="1.125, 4.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/Assignment5LINQtoSQLDataContext/State" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dc1ccff1-c100-4943-82b6-1e14154ec76d" absoluteBounds="1.1400000000000001, 5.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.8125 : 4.75); (1.8125 : 2.84780110677083)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Assignment5LINQtoSQLDataContext/State/State_Customer" />
+      <nodes>
+        <classShapeMoniker Id="09f13e7a-5439-46c9-9b62-b9aa01dad314" />
+        <classShapeMoniker Id="6d16343b-325f-478e-be6e-257f13a94437" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
